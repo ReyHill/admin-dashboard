@@ -15,5 +15,8 @@
 }
 
 .right {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+
     background-color: purple;
 }
