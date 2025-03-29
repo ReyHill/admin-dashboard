@@ -10,6 +10,10 @@
     height: 100vh;
 }
 
+ol {
+    list-style-type: none;
+}
+
 .left {
     background-color: orange;
 }
