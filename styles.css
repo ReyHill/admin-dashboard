@@ -46,3 +46,13 @@
 
     background-color: purple;
 }
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.header-left, .header-right {
+    grid-row: span 2;
+}
