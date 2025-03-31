@@ -50,7 +50,7 @@
 .header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 100px 100px;
 }
 
 .search {
@@ -70,10 +70,25 @@
     height: 25px;
 }
 
-.user {
+.user-one {
     height: 25px;
 }
 
 .username {
     margin: 0px; 
+}
+
+.header-bottom-left {
+    display: flex; 
+    margin: 50px 50px; 
+    align-items: center;
+    gap: 25px;
+}
+
+.user-two {
+    height: 50px;
+}
+
+.header-greeting {
+    font-size: 2rem;
 }
