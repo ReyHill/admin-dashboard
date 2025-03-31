@@ -62,6 +62,9 @@ html, body {
 
 .search-bar {
     width: 90%;
+    border-radius: 10px;
+    background-color: darkgray;
+    border: none;
 }
 
 .header-top-right {
