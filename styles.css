@@ -12,32 +12,22 @@
 
 .left {
     background-color: orange;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(10, 50px);
 }
 
-.sidebar-section-one {
-    display: grid; 
-    grid-template-columns: 1fr 3fr; 
-
-    justify-items: first baseline; 
-    padding-left: 5%;
-    margin-bottom: 25%;
+.sidebar-image, .sidebar-text {
+    justify-self: center;
+    align-self: center;
 }
 
-.sidebar-section-two {
-    display: grid; 
-    grid-template-columns: 1fr 3fr; 
-
-    justify-items: first baseline; 
-    padding-left: 5%;
-    margin-bottom: 10%
+.sidebar-image {
+    height: 25px;
 }
 
-.sidebar-section-three {
-    display: grid; 
-    grid-template-columns: 1fr 3fr; 
-
-    justify-items: first baseline; 
-    padding-left: 5%;
+.sidebar-text {
+    justify-self: start;
 }
 
 .right {
