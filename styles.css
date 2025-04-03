@@ -141,6 +141,18 @@ html, body {
     padding: 25px 10px;
 }
 
+#special-card-left {
+    position: relative;
+}
+
+#special-card-left::before {
+    content: 'Some Info'; 
+    position: absolute; 
+    top: -70px; 
+    font-weight: bold;
+    font-size: 2rem;
+}
+
 .card-left-bottom {
     align-self: end;
     margin-top: 10px;
