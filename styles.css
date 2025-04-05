@@ -124,8 +124,6 @@ html, body {
 .main-content-left {
     display: grid; 
     grid-template-columns: 1fr 1fr;
-    justify-items: center; 
-    align-items: center;
     padding: 25px; 
     gap: 10px;
 }
@@ -154,4 +152,10 @@ html, body {
 .card-left-bottom > img {
     height: 20px;
     width: 20px;
+}
+
+.main-content-right {
+    display: grid;
+    padding: 25px;
+    gap: 10px;
 }
